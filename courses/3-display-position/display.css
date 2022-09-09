@@ -1,0 +1,35 @@
+/* display has default value*/
+
+/* block: take the entire row, with own height and width*/
+
+/* inline: put elements in one line, no height, no width */
+
+/* inline-block: in one line, with height and width*/
+
+
+h1 {
+    display: block;
+    /*display: inline;*/
+    height: 100px;
+    width: 500px;
+    background-color: antiquewhite;
+}
+
+h2 {
+    display: inline;
+}
+
+.menu {
+    font-size: 0;
+    background-color: darkgray;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    /*display: block;*/
+    padding: 10px;
+    background-color: lightblue;
+    font-size: 16px;
+}
+

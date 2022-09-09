@@ -1,0 +1,39 @@
+* {
+    background: url("https://pic.616pic.com/bg_w1180/00/03/69/J970JAeJF8.jpg!/fw/1120");
+}
+h1 {
+    position: relative;
+    padding-bottom: 20px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+    align-content: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: darkgray;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+a:visited {
+    color: coral;
+}
+
+.photo div {
+    /*border: 2px solid blue;*/
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+    display: inline;
+}

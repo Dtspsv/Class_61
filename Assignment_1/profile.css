@@ -1,0 +1,51 @@
+body, html{
+    margin: 0;
+    background-image: url("Assignment_Reference/hubble.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header  {
+    background-color: black;
+    font-size: 60px;
+    font-style: oblique;
+    font-family: fantasy;
+    color: white;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+    align-content: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: darkgray;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+a:visited {
+    color: coral;
+}
+
+h2, h3 {
+    text-align: center;
+    color: lightgoldenrodyellow;
+    font-size: 30px;
+}
+
+.list {
+    color: lightgoldenrodyellow;
+    text-align: left;
+}
+

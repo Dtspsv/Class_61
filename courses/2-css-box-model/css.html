@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS intro</title>
+
+    <!--   external insert CSS -->
+    <link rel="stylesheet" href="./css.css">
+
+    <!--   internal insert style-->
+    <style>
+        li {
+            color: darkgrey;
+            margin: 5px;
+            padding: 10px;
+        }
+
+        #thirdListItem {
+            font-size: 40px;
+        }
+    </style>
+
+
+
+</head>
+<body>
+<h1> CSS: Cascading Style Sheet</h1>
+
+<hr>
+
+<h2> CSS Selectors</h2>
+
+<!-- emmet -->
+<!-- ul>li*4 Tab -->
+<!-- div*3 Tab -->
+<!-- div>div*4 Tab -->
+
+
+<ul>
+    <li>tag name</li>
+    <li class="secondListItem">.class</li>
+    <li id="thirdListItem">#id</li>
+    <li class="fourthListItem specialStyle">combination</li>
+</ul>
+<hr>
+<h2 class="specialStyle">3 Ways to insert CSS</h2>
+<ol>
+    <li>Insert CSS from external file (Try this first) </li>
+    <li>Internal / embedded style</li>
+    <li style="color: orange; background-color: lightblue">Inline style</li>
+</ol>
+<hr>
+<h2>Priority</h2>
+<p>
+    For internal and external CSS: <br>
+    the latest (bottom) style > prior style <br>
+</p>
+<p> For inline style: <br>
+    inline style > the other 2 styles <br>
+</p>
+<p>
+    The highest: <br>
+    Use !important after a key (avoid at all cost) <br>
+</p>
+
+https://www.freecodecamp.org/news/css-selectors-cheat-sheet/
+
+
+<h2>Box model</h2>
+<ul>
+    <li>padding</li>
+    <li>border</li>
+    <li>margin</li>
+</ul>
+
+<h2>pseudo class</h2>
+<span>
+for status of elements <br>
+example: h2:hover <br>
+</span>
+
+
+
+<h2>Homework</h2>
+<ul>
+    <li>Create a portfolio webpage</li>
+    <li>Try as many elements as you can</li>
+    <li>Style the elements using css</li>
+    <li>Present your work next lesson in English</li>
+    <li>Deadline: 7:00pm on July 6th</li>
+    <li>optional: CSS selector game</li>
+    https://flukeout.github.io/
+</ul>
+
+
+
+</body>
+</html>

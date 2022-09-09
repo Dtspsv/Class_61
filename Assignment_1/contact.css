@@ -1,0 +1,52 @@
+* {
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    position: relative;
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+    align-content: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: darkgray;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+a:visited {
+    color: coral;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+i {
+    padding-top: 100px;
+    width: 100px;
+    height: 100px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-content: center;
+    flex-direction: row;
+    display: flex;
+}

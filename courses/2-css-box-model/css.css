@@ -1,0 +1,49 @@
+/* tag selector */
+
+h1 {
+    background-color: pink;
+}
+
+h1:hover {
+    cursor: pointer;
+    border: 2px solid mediumpurple;
+}
+
+h2 {
+    text-align: center;
+    width: 50%;
+    background-color: lightblue;
+    border: 3px dashed black;
+    border-radius: 15px;
+    padding: 10px;
+    margin: auto;
+}
+
+h2:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: antiquewhite;
+}
+
+/* class selector: start with .*/
+.secondListItem {
+    color: blue;
+}
+
+
+/* id selector: start with #*/
+#thirdListItem {
+    font-size: 20px !important;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgba(8, 36, 49, 0.6);
+}
+
+/* combination selector */
+li.specialStyle {
+    color: red;
+}
+
+/*li {*/
+/*    color: darkolivegreen;*/
+/*}*/

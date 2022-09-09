@@ -1,0 +1,71 @@
+@use '../index' as cssIndex;
+
+.listContainer {
+  display: flex;
+  flex-direction: row;
+
+  .songList {
+    border: 1px gray solid;
+    padding: 5px;
+    width: 33%;
+    min-width: 460px;
+    max-width: 960px;
+
+    .list {
+      border: 1px green solid;
+      display: flex;
+      flex-direction: column;
+      height: 80vh;
+
+      .listRow {
+        margin: 2px;
+        border: 1px red solid;
+        display: flex;
+        flex-direction: column;
+
+        .songRow {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+
+          .songRow_Index {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+.title {
+  color: cssIndex.$clrHighlight;
+  font-size: 16px;
+  font-family: Ember, Helvetica, Arial, "sans-serif";
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.icon {
+  display: inline-block;
+  padding: 2px;
+  width: 24px;
+  height: 24px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+}
+
+img {
+  width: 28px;
+  height: 28px;
+}

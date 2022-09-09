@@ -1,0 +1,44 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#helloWorld {
+    position: relative;
+    font-size: 100px;
+    color: lightblue;
+    font-family: cursive;
+    text-align: center;
+}
+
+.nav {
+    position: relative;
+    font-size: 50px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    line-height: 2.5;
+}
+
+a:link {
+    text-decoration: none;
+    color: darkgray;
+}
+
+a:visited {
+    color: coral;
+}
+
+a:hover {
+    cursor: none;
+    color: white;
+}
+
+
+

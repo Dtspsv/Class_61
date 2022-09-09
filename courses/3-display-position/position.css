@@ -1,0 +1,47 @@
+.grandpa {
+    border: 2px solid blue;
+    width: 700px;
+    height: 2000px;
+    /*position: relative;*/
+}
+
+#parent1 {
+    border: 2px solid pink;
+    height: 800px;
+    width: 600px;
+    /*position: relative;*/
+}
+
+#parent1 div {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 2px solid green;
+    margin: 10px;
+}
+
+/* position default value: static*/
+
+/* position: relative*/
+/* relative to its own static position in the document flow*/
+
+#parent1 .child6 {
+    background-color: darkgray;
+    /*position: static;*/
+    /*position: relative;*/
+    position: absolute;
+    /*top: 10px;*/
+    right: 40px;
+    bottom: 10px;
+    /*left: 40px;*/
+    /*z-index: ;*/
+}
+
+
+/* position: absolute */
+/* absolute: 1. element is pulled out of the flow */
+/* use first parent with a position: relative*/
+/* no parent has relative position: use the window*/
+
+
+/* homework: improve portfolio, css selector game*/

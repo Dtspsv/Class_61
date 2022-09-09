@@ -1,0 +1,42 @@
+#grandpa {
+    border: 2px solid blue;
+    /*width: 90%;*/
+    height: 2000px;
+}
+
+.parent {
+    border: 2px solid pink;
+    /*height: 800px;*/
+    /*width: 600px;*/
+    width: 90%;
+    margin: 0 auto;
+    /*font-size: 0;*/
+
+    /* flex related: */
+    display: flex;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+    /*justify-content: flex-start;*/
+    justify-content:space-evenly;
+    align-content: center;
+    /*align-items: center;*/
+}
+
+
+.parent div {
+    /*font-size: 16px;*/
+    display: inline;
+    border: 2px solid green;
+    /*height: 100px;*/
+    width: 300px;
+    margin: 10px;
+}
+
+.parent .child6 {
+
+    background-color: lightblue;
+    border: 2px solid red;
+    /*height: 150px;*/
+    /*font-size: 50px;*/
+
+}
